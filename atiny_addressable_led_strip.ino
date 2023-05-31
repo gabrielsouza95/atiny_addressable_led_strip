@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // pin 0 is the WS2812B input signal from the led strip
-const unsigned char LED_CONNECTION_PIN = 0;
+const unsigned char LED_CONNECTION_PIN = 2;
 const unsigned char LED_STRIP_SIZE = 13;
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(LED_STRIP_SIZE, LED_CONNECTION_PIN, NEO_GRB + NEO_KHZ800);
 // pin 1 is the inboard built-in led used for testing and feedback on program health and state
